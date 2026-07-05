@@ -3,7 +3,8 @@ name: PR Hello World
 on:
   pull_request:
     branches:
-      - '**'
+      - main
+      
 
 jobs:
   hello:
